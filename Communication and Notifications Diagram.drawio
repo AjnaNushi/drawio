@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T20:18:06.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.15" etag="eJNze_TEk1qGgofcnteO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T20:29:30.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ln-jXhlc9pDiMvhjDNuF" version="22.1.15" type="github">
   <diagram name="Page-1" id="50EvtUYwvP6-poUXVo4I">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-1" target="s2a8COl0CVLU69yp0-Lr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-3" target="s2a8COl0CVLU69yp0-Lr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-3" value="Notification System identify triggering events" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="363" y="60" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-6" target="s2a8COl0CVLU69yp0-Lr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-6" value="Generate Notifications" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="366" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-9" target="s2a8COl0CVLU69yp0-Lr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-9" value="Send notifications via email, SMS, or app alerts" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="369" y="240" width="114" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-12" value="Notifications sent successfully?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-13" target="s2a8COl0CVLU69yp0-Lr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-13" target="s2a8COl0CVLU69yp0-Lr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-13" target="s2a8COl0CVLU69yp0-Lr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-13" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="385" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-18" target="s2a8COl0CVLU69yp0-Lr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-18" value="Log Sent Notifications" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="365" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2a8COl0CVLU69yp0-Lr-20" target="s2a8COl0CVLU69yp0-Lr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-20" value="Retry or alert administrators" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="245" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2a8COl0CVLU69yp0-Lr-29" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
