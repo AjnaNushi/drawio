@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-12-30T13:47:55.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="K1ldxOBcjmgQo7r-p-M5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-30T14:06:52.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FRDNDjueimZO8XvZoFDM" version="22.1.16" type="github">
   <diagram name="Page-1" id="41Nxb8wvCQj7rXxdexHx">
-    <mxGraphModel>
+    <mxGraphModel dx="1518" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-3" value="Loan Application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-18" value="Approval/Rejection Notification" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="Ai-HHunWWaO1HCi81pSj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="320" />
+            </Array>
+            <mxPoint x="55" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-4" value="Decision Log" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Ai-HHunWWaO1HCi81pSj-4">
+          <mxGeometry x="45" y="100" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-6" value="Initiates Approval/Rejection Process" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Ai-HHunWWaO1HCi81pSj-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="140" as="sourcePoint" />
+            <mxPoint x="170" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-7" value="Compliance Rules Guidelines" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="170" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-8" value="Verifies Compliance Rules" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="305" y="160" as="sourcePoint" />
+            <mxPoint x="484.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-11" value="Compliance Check Result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484.5" y="190" as="sourcePoint" />
+            <mxPoint x="304.9999999999999" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-12" value="Loan Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-13" value="Automated Processes Algorithms" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="740" y="40" width="180" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-14" value="Assess Risk and Eligibility" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="305" y="230" as="sourcePoint" />
+            <mxPoint x="829.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-15" value="Risk nd Eligibility Assessment" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829.5" y="254.67" as="sourcePoint" />
+            <mxPoint x="305" y="254.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-16" value="Decision Recorded" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="300" as="sourcePoint" />
+            <mxPoint x="89.83333333333331" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai-HHunWWaO1HCi81pSj-19" value="Updates if Approved" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="306" y="390" as="sourcePoint" />
+            <mxPoint x="650.5" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="351" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
