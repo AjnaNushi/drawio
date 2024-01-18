@@ -1,34 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T21:27:20.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gaRQeuLoVphnpT4VWVAQ" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T16:03:37.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Mq3MU4MyYzz5VvACsC9l" version="22.1.21" type="github">
   <diagram name="Page-1" id="grcLe9n3jDfALMMGcZYx">
     <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7jDedNwsKNQYdukyOzsB-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;mi:Microfinance institution&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = CreditCare&lt;br&gt;location = Tirana&lt;br&gt;establishedDate&amp;nbsp;= 18.10.2023&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;mi:Microfinance institution&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = CreditCare&lt;br&gt;location = Tirana&lt;br&gt;establishedDate&amp;nbsp;= 18.10.2023&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="310" y="130" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7jDedNwsKNQYdukyOzsB-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;e:Employee&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;employeeId = value1&lt;br&gt;name = value2&lt;br&gt;position = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;e:Employee&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;employeeId = value1&lt;br&gt;name = value2&lt;br&gt;position = Loan Processor&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="610" y="210" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7jDedNwsKNQYdukyOzsB-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;b:Branch&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;branchId = value1&lt;br&gt;name = value2&lt;br&gt;location = Tirana&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;b:Branch&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;branchId = 789&lt;br&gt;name = Tirana Central&lt;br&gt;location = Tirana&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="190" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7jDedNwsKNQYdukyOzsB-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;lo:Loan Officer&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;officerId = 100456&lt;br&gt;name = Ardit&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;lo:Loan Officer&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;officerId = 100456&lt;br&gt;name = Ardit Hoxha&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="335" y="330" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7jDedNwsKNQYdukyOzsB-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jDedNwsKNQYdukyOzsB-6" target="7jDedNwsKNQYdukyOzsB-8">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="7jDedNwsKNQYdukyOzsB-6" target="7jDedNwsKNQYdukyOzsB-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="270" y="270" as="sourcePoint" />
             <mxPoint x="430" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jDedNwsKNQYdukyOzsB-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jDedNwsKNQYdukyOzsB-6" target="7jDedNwsKNQYdukyOzsB-7">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="7jDedNwsKNQYdukyOzsB-6" target="7jDedNwsKNQYdukyOzsB-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="590" y="160" as="sourcePoint" />
             <mxPoint x="750" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jDedNwsKNQYdukyOzsB-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jDedNwsKNQYdukyOzsB-6" target="7jDedNwsKNQYdukyOzsB-9">
+        <mxCell id="7jDedNwsKNQYdukyOzsB-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7jDedNwsKNQYdukyOzsB-6" target="7jDedNwsKNQYdukyOzsB-9" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="400" y="280" as="sourcePoint" />
             <mxPoint x="560" y="280" as="targetPoint" />
