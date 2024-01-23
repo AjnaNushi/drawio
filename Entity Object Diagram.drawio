@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T18:07:35.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="sQEd0WBN_2b7l4KmgPnz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T18:46:12.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eNCYzs-jjwFjn1CB7dG1" version="22.1.21" type="github">
   <diagram name="Page-1" id="G1XNfEgBHU-cn_z_BSpi">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lyBsavxTPCPHI-95zp67-2" value="lp: Loan Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="420" width="220" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-3" value="- ProductID = P001&lt;br&gt;- ProductName = Personal Loan&lt;br&gt;- Terms = 36 months&lt;br&gt;- InterestRates = 5%&lt;br&gt;- Conditions:&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;MinimumCreditScore = 700&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MaximumLoanAmount: ALL500,000&amp;nbsp; &amp;nbsp; &amp;nbsp; CollateralRequired: Yes " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lyBsavxTPCPHI-95zp67-2">
+          <mxGeometry y="26" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lyBsavxTPCPHI-95zp67-2">
+          <mxGeometry y="160" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-5" value="c: Collateral  " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="171" width="160" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-6" value=" - CollateralID = C001&lt;br&gt;- UserID = 123456&lt;br&gt;- AssetType = Car&lt;br&gt;- Value = ALL 2,000,000" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lyBsavxTPCPHI-95zp67-5">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lyBsavxTPCPHI-95zp67-5">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-8" value="a: Applicant" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="180" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-9" value="- UserID = 123456&lt;br&gt;- Name =&amp;nbsp;John Doe&lt;br&gt;- ContactInfo:&lt;br&gt;&amp;nbsp; Phone = xxx-xxx-xxxx&lt;br&gt;&amp;nbsp; Email = johndoe@gmail.com" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lyBsavxTPCPHI-95zp67-8">
+          <mxGeometry y="26" width="180" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lyBsavxTPCPHI-95zp67-8">
+          <mxGeometry y="110" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-11" value="la: Loan Application  " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="220" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-12" value=" - ApplicationID = A123&lt;br&gt;- UserID = 123456&lt;br&gt;- ApplicationDate =&amp;nbsp;2024-01-25&lt;br&gt;- FinancialDetails:&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;Income = ALL600,000 per annum&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Expenses = ALL200,000 per annum&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; OtherLiabilities = ALL50,000&amp;nbsp;&lt;br&gt;- EmploymentInfo:&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; Employer = XYZ Corporation&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; EmploymentType = Full-time&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; YearsInCurrentJob = 3 years " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lyBsavxTPCPHI-95zp67-11">
+          <mxGeometry y="26" width="220" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lyBsavxTPCPHI-95zp67-11">
+          <mxGeometry y="190" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-14" value="lac: Loan Account  " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="210" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-15" value="- AccountID = L001&lt;br&gt;- ApplicationID = A123&lt;br&gt;- Disbursements:&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;DisbursementDate =&amp;nbsp; 2024-02-01&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Amount = ALL100,000&lt;br&gt;- Repayments:&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; RepaymentDate = 2024-03-01&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Amount = ALL10,000 &lt;br&gt;- Interest:&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;InterestRate = 5%&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; InterestAccrued = ALL 5,000" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lyBsavxTPCPHI-95zp67-14">
+          <mxGeometry y="26" width="210" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lyBsavxTPCPHI-95zp67-14">
+          <mxGeometry y="200" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-17" value="cb: Credit Bureau/Credit Score" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="230" width="215" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-18" value="- BureauID = B001&lt;br&gt;- UserID = 123456&lt;br&gt;- CreditScore = 750&lt;br&gt;- CreditInfo:&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;CreditHistory = Good&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; DebtToIncomeRatio = 20%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; LatePayments = 0 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lyBsavxTPCPHI-95zp67-17">
+          <mxGeometry y="26" width="215" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lyBsavxTPCPHI-95zp67-17">
+          <mxGeometry y="140" width="215" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-20" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyBsavxTPCPHI-95zp67-12" target="lyBsavxTPCPHI-95zp67-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-21" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lyBsavxTPCPHI-95zp67-17" target="lyBsavxTPCPHI-95zp67-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="sourcePoint" />
+            <mxPoint x="411.1199999999999" y="190.65599999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-22" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lyBsavxTPCPHI-95zp67-5" target="lyBsavxTPCPHI-95zp67-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="sourcePoint" />
+            <mxPoint x="610" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-23" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.332;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lyBsavxTPCPHI-95zp67-13" target="lyBsavxTPCPHI-95zp67-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyBsavxTPCPHI-95zp67-24" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lyBsavxTPCPHI-95zp67-11" target="lyBsavxTPCPHI-95zp67-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="153.90134529147986" y="320" as="sourcePoint" />
+            <mxPoint x="370" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
