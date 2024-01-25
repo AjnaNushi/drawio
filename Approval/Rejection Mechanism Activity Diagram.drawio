@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T15:40:51.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.0.1" etag="NmS5SIyfq7cDzU3_XOt5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T16:06:50.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ssERgLVvzr6tTnliCa7T" version="23.0.1" type="github">
   <diagram name="Page-1" id="Nvkn6r12DFQ2uQREgTML">
-    <mxGraphModel>
+    <mxGraphModel dx="955" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="paXl-30irSFOHte52kfg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-1" target="paXl-30irSFOHte52kfg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-1" value="Loan Approval Authority retrieve applicant&#39;s eligibility status" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="90" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-3" target="paXl-30irSFOHte52kfg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-6" target="paXl-30irSFOHte52kfg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-6" value="Review Application" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-8" target="paXl-30irSFOHte52kfg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-8" value="Approve or reject the loan application" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-10" target="paXl-30irSFOHte52kfg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-10" target="paXl-30irSFOHte52kfg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-10" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="395" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-16" value="Additional information required?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=119.99999999999999;exitDy=33.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-16" target="paXl-30irSFOHte52kfg-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-18" value="Prompt for additional information" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-20" target="paXl-30irSFOHte52kfg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-20" value="Update Application Status" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-22" target="paXl-30irSFOHte52kfg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-22" value="Notify applicant of the decision" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-27" target="paXl-30irSFOHte52kfg-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-45" value="[Yes]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="paXl-30irSFOHte52kfg-38">
+          <mxGeometry x="-0.6836" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-27" target="paXl-30irSFOHte52kfg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-44" value="[No]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="paXl-30irSFOHte52kfg-39">
+          <mxGeometry x="-0.2955" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-27" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="395" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-31" target="paXl-30irSFOHte52kfg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-31" value="Send Approval Notification" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-33" target="paXl-30irSFOHte52kfg-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-33" value="Send Rejection Notification" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="515" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-35" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-36" value="Application approved?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paXl-30irSFOHte52kfg-37" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=80;exitDy=25.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="paXl-30irSFOHte52kfg-36" target="paXl-30irSFOHte52kfg-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="630" as="sourcePoint" />
+            <mxPoint x="380" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
